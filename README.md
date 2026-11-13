@@ -46,7 +46,7 @@
 geosite:ru                        geosite:global
 ├─ банки, сервисы, магазины        ├─ ИИ, разработка, экосистемы
 ├─ операторы, хостинги             ├─ игры, мессенджеры
-├─ соцсети, видео                  └─ соцсети, видео
+├─ MAX, соцсети, видео             └─ зарубежные сервисы
 ├─ ru-zones (.ru/.рф/.su и др.)
 └─ ru-other (нераспределённый остаток)
 
@@ -63,6 +63,7 @@ geoip:private · geoip:ru           IP-категории
 | [ecosystems-ru](geosite/ecosystems-ru/) | [Yandex](geosite/yandex/), [Mail.ru](geosite/mailru/) |
 | [shopping-ru](geosite/shopping-ru/) | [Авто.ру](geosite/autoru/), [Авито](geosite/avito/), [Ozon](geosite/ozon/), [Wildberries](geosite/wildberries/) |
 | [services-ru](geosite/services-ru/) | [2ГИС](geosite/2gis/), [СДЭК](geosite/cdek/), [HeadHunter](geosite/headhunter/) |
+| [messengers-ru](geosite/messengers-ru/) | [MAX](geosite/max/) — сайт, веб-клиент и сервисные домены через `max.ru` и `oneme.ru` |
 | [operators-ru](geosite/operators-ru/) | [билайн](geosite/beeline/), [МегаФон](geosite/megafon/), [МТС](geosite/mts/), [Ростелеком](geosite/rostelecom/), [T2](geosite/t2/) |
 | [hosting-ru](geosite/hosting-ru/) | [Beget](geosite/beget/), [DSN-Host](geosite/dsn-host/), [NIC.RU](geosite/nic-ru/), [REG.RU](geosite/regru/), [Selectel](geosite/selectel/), [Timeweb](geosite/timeweb/) |
 | [social-ru](geosite/social-ru/) | [Одноклассники](geosite/ok/), [VK](geosite/vk/) |
@@ -119,7 +120,7 @@ geoip:private · geoip:ru           IP-категории
 }
 ```
 
-Это **фрагмент полей**, вставляемый в полный JSON профиль; остальные поля возьмите из JSONSUB. `geosite:telegram` берёт только Telegram, `geosite:messengers-global` — все шесть мессенджеров, `geosite:global` — все зарубежные группы. Если у вас `GlobalProxy: "true"`, отдельное правило `geosite:global` для обычного проксирования не требуется: трафик без совпадения уже идёт через PROXY. `geosite:ru` и `geosite:global` могут пересечься на отдельных доменах; при явных правилах проверьте порядок маршрутизации.
+Это **фрагмент полей**, вставляемый в полный JSON профиль; остальные поля возьмите из JSONSUB. `geosite:max` берёт только MAX, `geosite:messengers-ru` — российские мессенджеры, `geosite:telegram` — только Telegram, `geosite:messengers-global` — шесть зарубежных мессенджеров. Если у вас `GlobalProxy: "true"`, отдельное правило `geosite:global` для обычного проксирования не требуется: трафик без совпадения уже идёт через PROXY. `geosite:ru` и `geosite:global` могут пересечься на отдельных доменах; при явных правилах проверьте порядок маршрутизации.
 
 Если используете `.dat` в собственном Xray-конфиге, положите файлы в каталог ресурсов Xray и указывайте `geosite:NAME` / `geoip:NAME` в его правилах. Само имя категории не загружает файл из GitHub: клиенту нужны соответствующие `.dat`. Для Happ адреса загрузки задаются полями `Geositeurl` и `Geoipurl`. Для сервера Remnawave эти файлы нужно установить отдельно на стороне узла.
 

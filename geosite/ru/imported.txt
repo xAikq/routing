@@ -5,6 +5,7 @@
 include:banks
 include:ecosystems-ru
 include:hosting-ru
+include:messengers-ru
 include:operators-ru
 include:ru-other
 include:ru-zones

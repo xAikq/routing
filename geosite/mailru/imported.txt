@@ -3,6 +3,7 @@
 # Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
 # Upstream list: mailru-group (includes and attribute filters resolved upstream)
 # License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+# Local classification exclusions: domain:max.ru, domain:oneme.ru
 
 domain:adsadvisor.io
 domain:algoritmika.org
@@ -96,7 +97,6 @@ domain:list.ru
 domain:lovina.app
 domain:mail.ru
 domain:mailicq.org
-domain:max.ru
 domain:mcs.st
 domain:mediumquality.ru
 domain:memealerts.com
@@ -132,7 +132,6 @@ domain:ok.ru
 domain:okcdn.ru
 domain:okl.lt
 domain:oktech.ru
-domain:oneme.ru
 domain:pixonic.com
 domain:prod-my.games
 domain:rabbitcounter.com
