@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+  <title id="title">DEFAULT — готовый профиль</title><desc id="desc">Готовые правила маршрутизации. Подключить к Happ.</desc>
+  <rect x="1" y="1" width="558" height="218" rx="18" fill="#111e19" stroke="#375343"/>
+  <rect x="27" y="30" width="5" height="12" rx="2" fill="#b9f6cc"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="44" y="40" font-size="12" letter-spacing="1.6" font-weight="600" fill="#94b09f">01 / ГОТОВЫЙ ПРОФИЛЬ</text>
+    <text x="29" y="104" font-size="47" font-weight="700" letter-spacing="-1.5" fill="#eaf4ed">DEFAULT</text>
+    <text x="31" y="140" font-size="20" fill="#9db8a8">Правила уже настроены.</text>
+    <path d="M31 166h498" stroke="#2e4939"/>
+    <text x="31" y="198" font-size="16" font-weight="600" fill="#b9f6cc">Подключить к Happ</text>
+    <path d="M496 193h28m-8-8 8 8-8 8" fill="none" stroke="#b9f6cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M411 85h29c28 0 15-25 44-25h21m-65 25c28 0 15 25 44 25h21" stroke="#365d46" stroke-width="2" fill="none"/>
+    <circle cx="411" cy="85" r="5" fill="#b9f6cc"/><circle cx="505" cy="60" r="4" fill="#618c6f"/><circle cx="505" cy="110" r="4" fill="#618c6f"/>
+  </g>
+</svg>

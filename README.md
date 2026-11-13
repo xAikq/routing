@@ -1,26 +1,35 @@
-# routing
+<p align="center">
+  <img src="assets/readme/cover.svg" alt="routing — ваши списки, ваши маршруты. GeoSite, GeoIP и профили Happ." width="1200">
+</p>
 
-Списки доменов и IP-сетей для маршрутизации в Happ. Выберите готовые правила или соберите свои из отдельных категорий — от банков до игровых сервисов.
+<p align="center">
+  Открытые списки доменов и IP-сетей.<br>
+  Готовая маршрутизация или собственные правила — выбираете вы.
+</p>
 
-**[Подключить к Happ →](https://xaikq.github.io/routing/)**
+<p align="center">
+  <a href="https://xaikq.github.io/routing/"><img src="assets/readme/connect.svg" alt="Подключить Happ" width="246" height="50"></a>
+</p>
 
-[Домены](geosite/) · [IP-сети](geoip/) · [Настройки профилей](happ/profiles.json) · [Релизы](https://github.com/xAikq/routing/releases)
+<p align="center">
+  <a href="geosite/"><b>Домены</b></a> &nbsp; / &nbsp;
+  <a href="geoip/"><b>IP-сети</b></a> &nbsp; / &nbsp;
+  <a href="happ/profiles.json"><b>Правила</b></a> &nbsp; / &nbsp;
+  <a href="https://github.com/xAikq/routing/releases"><b>Релизы</b></a>
+</p>
 
-> Проект начинается с небольших списков. Категории сервисов пока неполные, а `geoip:ru` содержит только два адреса DNS Яндекса. Перед использованием для всей страны дополните её нужными диапазонами.
+<br>
 
-## Выберите, с чего начать
+## Два способа начать
 
-### DEFAULT · готовая маршрутизация
+<p align="center">
+  <a href="https://xaikq.github.io/routing/install/"><img src="assets/readme/default.svg" alt="DEFAULT — готовый профиль. Подключить к Happ." width="390"></a>
+  <a href="https://xaikq.github.io/routing/"><img src="assets/readme/jsonsub.svg" alt="JSONSUB — базы и DNS для собственных правил. Выбрать профиль." width="390"></a>
+</p>
 
-Яндекс, VK, Ozon, Wildberries, банки и локальные IP идут напрямую. YouTube и остальной трафик — через прокси. Правила доступны в [конфигурации профилей](happ/profiles.json), а домены каждого сервиса — в открытых списках этого репозитория.
+**DEFAULT** направляет Яндекс, VK, Ozon, Wildberries, банки и локальные IP напрямую. YouTube и остальной трафик идут через прокси.
 
-**[Открыть DEFAULT в Happ](https://xaikq.github.io/routing/install/)**
-
-### JSONSUB · основа для своих правил
-
-DNS и адреса наших GeoSite/GeoIP уже указаны. Списки правил пустые: выберите категории и назначьте им DIRECT, PROXY или BLOCK самостоятельно. До добавления исключений действует общий режим прокси.
-
-**[Выбрать JSONSUB на странице подключения](https://xaikq.github.io/routing/)**
+**JSONSUB** подключает наши базы и DNS. Списки правил пустые: назначьте категориям DIRECT, PROXY или BLOCK самостоятельно. До добавления исключений действует общий режим прокси.
 
 Для подключения нужен настроенный VPN в Happ. После импорта дождитесь загрузки баз, выберите профиль и переподключитесь. Если браузер не открыл приложение, используйте кнопку на странице или импорт из буфера обмена.
 
@@ -41,6 +50,11 @@ JSONSUB: [JSON](happ/generated/JSONSUB.JSON) · [ссылка импорта](ha
 JSONSUB — название профиля маршрутизации. В нём нет VPN-нод или ключей. Если провайдер использует JSON-подписку с ограничениями маршрутизации, отдельный ручной импорт может быть недоступен: [как это устроено в Happ](https://github.com/HappDev/happ_su/blob/main/dev-docs/routing.md).
 
 </details>
+
+> [!NOTE]
+> **Стартовый набор.** Категории сервисов пока неполные. В `geoip:ru` добавлены только два адреса DNS Яндекса; для маршрутизации всей страны нужны дополнительные диапазоны.
+
+<br>
 
 ## Из чего складывается маршрут
 

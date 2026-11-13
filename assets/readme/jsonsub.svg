@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+  <title id="title">JSONSUB — своя маршрутизация</title><desc id="desc">Наши базы и DNS. Правила задаёте вы. Выбрать профиль на странице подключения.</desc>
+  <rect x="1" y="1" width="558" height="218" rx="18" fill="#1b1927" stroke="#49405f"/>
+  <rect x="27" y="30" width="5" height="12" rx="2" fill="#cdbfff"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="44" y="40" font-size="12" letter-spacing="1.6" font-weight="600" fill="#a69bbf">02 / СВОЯ МАРШРУТИЗАЦИЯ</text>
+    <text x="29" y="104" font-size="47" font-weight="700" letter-spacing="-1.5" fill="#f0ecfa">JSONSUB</text>
+    <text x="31" y="140" font-size="20" fill="#afa3c7">Базы и DNS. Правила задаёте вы.</text>
+    <path d="M31 166h498" stroke="#3b324e"/>
+    <text x="31" y="198" font-size="16" font-weight="600" fill="#cdbfff">Выбрать профиль</text>
+    <path d="M496 193h28m-8-8 8 8-8 8" fill="none" stroke="#cdbfff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke="#63577c" stroke-width="2" stroke-linecap="round"><path d="M422 58h83M422 85h83M422 112h83"/><circle cx="448" cy="58" r="5" fill="#1b1927" stroke="#cdbfff"/><circle cx="482" cy="85" r="5" fill="#1b1927" stroke="#cdbfff"/><circle cx="456" cy="112" r="5" fill="#1b1927" stroke="#cdbfff"/></g>
+  </g>
+</svg>
