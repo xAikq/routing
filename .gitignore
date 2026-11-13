@@ -1,0 +1,7 @@
+/.tools/
+/.research/
+/.build/
+/dist/
+/go-downloads.json
+/_private/
+*.exe

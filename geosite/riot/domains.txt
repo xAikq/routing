@@ -1,0 +1,3 @@
+# Minimal example: official Riot Games website, not a complete game/CDN list.
+# https://www.riotgames.com/
+domain:riotgames.com

@@ -1,0 +1,4 @@
+# Minimal example: Yandex public DNS. NOT a complete RU country database.
+# https://dns.yandex.ru/
+77.88.8.8/32
+77.88.8.1/32

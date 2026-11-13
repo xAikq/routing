@@ -1,0 +1,3 @@
+domain:youtube.com
+domain:youtu.be
+domain:googlevideo.com

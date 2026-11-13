@@ -1,0 +1,3 @@
+# Minimal real examples; not a complete service list.
+domain:yandex.ru
+domain:ya.ru
