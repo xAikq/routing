@@ -4,4 +4,5 @@
 /dist/
 /go-downloads.json
 /_private/
+AGENTS.md
 *.exe

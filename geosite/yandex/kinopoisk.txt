@@ -1,0 +1,12 @@
+# Yandex ecosystem — maintained snapshot, not an ownership guarantee.
+# Source: https://github.com/v2fly/domain-list-community/blob/777d056afe68b2643c1ef15f80e7bde3dfa149b1/data/kinopoisk
+# Copyright (c) 2018-2019 V2Ray. MIT; see /LICENSE.
+# Upstream attributes are omitted; all listed hosts remain in this category.
+
+domain:kinopoisk.ru
+domain:kinopoisk-ru.clstorage.net
+domain:kp.yandex.net
+
+# Smart TV app
+full:kp-config-smart-tv.akamaized.net
+full:kp-configs-smart-tv.s3.eu-central-1.amazonaws.com

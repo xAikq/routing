@@ -68,7 +68,7 @@ geoip:private     → DIRECT
 
 Сейчас доступны:
 
-- **Сервисы:** [yandex](geosite/yandex/), [vk](geosite/vk/), [ozon](geosite/ozon/), [wildberries](geosite/wildberries/), [youtube](geosite/youtube/).
+- **Сервисы:** [yandex](geosite/yandex/) — расширенный список экосистемы с Кинопоиском; [vk](geosite/vk/), [ozon](geosite/ozon/), [wildberries](geosite/wildberries/), [youtube](geosite/youtube/).
 - **Банки:** [sber](geosite/sber/) и объединяющая категория [banks](geosite/banks/).
 - **Игры:** [riot](geosite/riot/) и объединяющая категория [games](geosite/games/). В Riot пока добавлен только `riotgames.com`.
 - **IP-сети:** [private](geoip/private/) — частные сети, loopback и link-local IPv4/IPv6; [ru](geoip/ru/) — начальный пример с `77.88.8.8/32` и `77.88.8.1/32`.
