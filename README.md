@@ -1,3 +1,7 @@
+<p align="canter">
+  Данный репозиторий находится В РАЗРАБОТКЕ!
+</p>
+
 <p align="center">
   <img src="assets/readme/cover.svg" alt="routing — ваши списки, ваши маршруты. GeoSite, GeoIP и профили Happ." width="1200">
 </p>
