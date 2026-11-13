@@ -1,3 +1,7 @@
 # Ручные дополнения: один домен или правило на строку.
 # Импорт обновляет только imported.txt; этот файл сохраняется.
 # Правила из всех .txt файлов категории объединяются.
+
+# Архив и сайт ESEA после переноса игровой лиги на FACEIT.
+# https://support.faceit.com/hc/en-us/articles/9717865214620-What-happens-to-the-ESEA-site-and-my-profile
+domain:esea.net

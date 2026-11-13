@@ -1,3 +1,7 @@
 # Ручные дополнения: один домен или правило на строку.
 # Импорт обновляет только imported.txt; этот файл сохраняется.
 # Правила из всех .txt файлов категории объединяются.
+
+# Экспериментальные настройки GitHub Copilot; точный хост из документации GitHub.
+# https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
+full:default.exp-tas.com

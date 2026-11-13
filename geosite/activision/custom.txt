@@ -1,3 +1,12 @@
 # Ручные дополнения: один домен или правило на строку.
 # Импорт обновляет только imported.txt; этот файл сохраняется.
 # Правила из всех .txt файлов категории объединяются.
+
+# Корпоративный домен Activision Blizzard.
+# https://www.activision.com/cdn/activisionblizzard/investors/annual-reports/Activision%202022%20Annual%20Report%20BookMarked.pdf
+domain:activisionblizzard.com
+
+# Beenox — студия Activision, участвующая в разработке Call of Duty.
+# https://www.activision.com/uk/en/company/locations
+# https://beenox.com/en/
+domain:beenox.com

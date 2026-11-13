@@ -3,6 +3,7 @@
 # Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
 # Upstream list: category-bank-ru, sber, tbank-ru (includes and attribute filters resolved upstream)
 # License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+# Local classification exclusions: domain:ubs.com
 
 domain:21-school.ru
 domain:2gis.ae
@@ -392,7 +393,6 @@ domain:transstroybank.ru
 domain:travel-tec.ru
 domain:tsbnk.ru
 domain:ubrr.ru
-domain:ubs.com
 domain:umbank.ru
 domain:unicredit.ru
 domain:unicreditbank.ru

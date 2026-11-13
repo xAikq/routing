@@ -1,3 +1,17 @@
 # Ручные дополнения: один домен или правило на строку.
 # Импорт обновляет только imported.txt; этот файл сохраняется.
 # Правила из всех .txt файлов категории объединяются.
+
+# Точные хосты из официальных сетевых рекомендаций OpenAI.
+# https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
+# Основные домены openai.com, chatgpt.com, oaistatic.com и oaiusercontent.com уже импортированы.
+full:cdn.openaimerge.com
+full:cdn.workos.com
+full:challenges.cloudflare.com
+full:forwarder.workos.com
+full:frontend-apps-multi-region.workos.com
+full:images.workoscdn.com
+full:js.intercomcdn.com
+full:js.stripe.com
+full:setup.workos.com
+full:workos.imgix.net

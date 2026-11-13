@@ -1,11 +1,12 @@
 {
   "custom_name": "JSONSUB",
   "default_name": "DEFAULT",
-  "default_description": "Готовый профиль: Яндекс, VK, Ozon, Wildberries, банки и private IP — DIRECT; YouTube и остальной трафик — PROXY. Списки пока минимальные.",
+  "default_policy": "ru-domains",
+  "default_description": "Российские домены и сервисы из geosite:ru, а также локальные IP — DIRECT. Реклама и аналитика — BLOCK. Остальной трафик — PROXY по умолчанию. Полная российская GeoIP-база пока не подключена.",
   "custom_description": "Минимальный профиль: только DNS и собственные GeoSite/GeoIP, без встроенных правил. Правила добавляются вручную; по умолчанию трафик через PROXY.",
   "rules": {
-    "DIRECT": ["geosite:yandex", "geosite:vk", "geosite:ozon", "geosite:wildberries", "geosite:banks", "geoip:private"],
-    "PROXY": ["geosite:youtube"],
-    "BLOCK": []
+    "DIRECT": ["geosite:ru", "geoip:private"],
+    "PROXY": [],
+    "BLOCK": ["geosite:ads", "geosite:tracking"]
   }
 }

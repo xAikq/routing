@@ -1,3 +1,8 @@
 # Ручные дополнения: один домен или правило на строку.
 # Импорт обновляет только imported.txt; этот файл сохраняется.
 # Правила из всех .txt файлов категории объединяются.
+
+# Адреса Docker Desktop из официального перечня для корпоративных сетей.
+# https://docs.docker.com/desktop/enterprise/allow-list/
+domain:dhi.io
+full:cdn.auth0.com

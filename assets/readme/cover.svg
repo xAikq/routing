@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
-  <title id="title">routing — ваши списки, ваши маршруты</title>
-  <desc id="desc">Списки GeoSite и GeoIP для Happ. Схема распределяет запросы по прямому и прокси-маршрутам.</desc>
+  <title id="title">routing. — карта маршрутизации</title>
+  <desc id="desc">Каталог GeoSite и GeoIP для Happ. Схема распределяет запросы по прямому и прокси-маршрутам.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#b6d6c5" stroke-opacity=".055"/></pattern>
     <linearGradient id="background" x2="1" y2=".6"><stop stop-color="#0f1a19"/><stop offset="1" stop-color="#10121b"/></linearGradient>
@@ -12,10 +12,10 @@
       <path d="M65 48h18c10 0 10-14 20-14h10M83 48c10 0 10 14 20 14h10"/>
       <path d="m108 29 5 5-5 5m0 18 5 5-5 5"/>
     </g>
-    <text x="132" y="53" font-size="13" letter-spacing="2" font-weight="600" fill="#b1c2bb">COMMUNITY ROUTING / HAPP</text>
-    <text x="60" y="161" font-size="104" font-weight="700" letter-spacing="-6" fill="#f0f6f1">routing<tspan fill="#b9f6cc">.</tspan></text>
-    <text x="66" y="227" font-size="37" font-weight="400" letter-spacing="-.7" fill="#e3ece6">Ваши списки.</text>
-    <text x="66" y="275" font-size="37" font-weight="400" letter-spacing="-.7" fill="#e3ece6">Ваши маршруты.</text>
+    <text x="132" y="53" font-size="13" letter-spacing="2" font-weight="600" fill="#b1c2bb">OPEN ROUTING CATALOG / HAPP</text>
+    <text x="60" y="161" font-size="92" font-weight="700" letter-spacing="-5" fill="#f0f6f1">routing<tspan fill="#b9f6cc">.</tspan></text>
+    <text x="66" y="227" font-size="37" font-weight="400" letter-spacing="-.7" fill="#e3ece6">Категории ясны.</text>
+    <text x="66" y="275" font-size="37" font-weight="400" letter-spacing="-.7" fill="#e3ece6">Маршрут выбираете вы.</text>
     <text x="68" y="329" font-size="18" fill="#8baba0">GeoSite <tspan fill="#41594e">/</tspan> GeoIP <tspan fill="#41594e">/</tspan> Профили Happ</text>
     <path d="M667 220h121" stroke="#526b60" stroke-width="2" fill="none"/>
     <path d="M813 220c85 0 51-100 128-100h49" fill="none" stroke="#b9f6cc" stroke-width="3"/>
@@ -33,7 +33,7 @@
     <text x="991" y="368" font-size="13" fill="#9287af">youtube · остальное</text>
     <path d="M65 391h1072" stroke="#2b3b33"/>
     <rect x="67" y="413" width="6" height="6" rx="2" fill="#b9f6cc"/>
-    <text x="86" y="422" font-size="11" letter-spacing="1.4" fill="#91a89b">ОТКРЫТЫЕ СПИСКИ</text>
+    <text x="86" y="422" font-size="11" letter-spacing="1.4" fill="#91a89b">КАРТА КАТЕГОРИЙ</text>
     <text x="580" y="422" font-size="11" letter-spacing="1.4" text-anchor="middle" fill="#91a89b">IPv4 + IPv6</text>
     <text x="1136" y="422" font-size="11" letter-spacing="1.4" text-anchor="end" fill="#91a89b">МАРШРУТИЗАЦИЯ ДЛЯ HAPP</text>
   </g>

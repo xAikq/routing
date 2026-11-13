@@ -1,0 +1,17 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: tld-ru (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+regexp:(?i)(^|\.)moscow$
+regexp:(?i)(^|\.)ru$
+regexp:(?i)(^|\.)su$
+regexp:(?i)(^|\.)tatar$
+regexp:(?i)(^|\.)xn--80adxhks$
+regexp:(?i)(^|\.)xn--80asehdb$
+regexp:(?i)(^|\.)xn--80aswg$
+regexp:(?i)(^|\.)xn--c1avg$
+regexp:(?i)(^|\.)xn--d1acj3b$
+regexp:(?i)(^|\.)xn--p1acf$
+regexp:(?i)(^|\.)xn--p1ai$
