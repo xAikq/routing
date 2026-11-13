@@ -1,0 +1,29 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: jetbrains (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:datalore.io
+domain:grazie.ai
+domain:intellij.com
+domain:intellij.net
+domain:intellij.org
+domain:jb.gg
+domain:jetbrains.ai
+domain:jetbrains.cloud
+domain:jetbrains.com
+domain:jetbrains.com.cn
+domain:jetbrains.dev
+domain:jetbrains.net
+domain:jetbrains.org
+domain:jetbrains.ru
+domain:jetbrains.space
+domain:jetbrains.team
+domain:kotl.in
+domain:kotlinconf.com
+domain:kotlinlang.org
+domain:ktor.io
+domain:myjetbrains.com
+domain:talkingkotlin.com
+domain:youtrack.cloud

@@ -1,0 +1,10 @@
+# Imported category group; edit custom.txt for local additions.
+# Region: non-RU services; includes countries outside Russia, including CIS.
+# Domain suffixes and IP geolocation are handled separately by routing policy.
+
+# Included service categories (including their local additions).
+include:netflix
+include:spotify
+include:tiktok
+include:twitch
+include:youtube

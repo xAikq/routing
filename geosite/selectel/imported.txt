@@ -1,0 +1,30 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: selectel (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:chipcore.com
+domain:chipcore.ru
+domain:haicomdc.com
+domain:haicomdc.ru
+domain:haicomgroup.ru
+domain:itirex.ru
+domain:selcdn.net
+domain:selectel.academy
+domain:selectel.blog
+domain:selectel.com
+domain:selectel.dev
+domain:selectel.info
+domain:selectel.io
+domain:selectel.live
+domain:selectel.ru
+domain:selectelix.ru
+domain:selectelpro.ru
+domain:servercore.com
+domain:servercore.live
+domain:slc.tl
+domain:tehnodom.com
+domain:vscale.blog
+domain:vscale.io
+domain:vscale.ru

@@ -1,0 +1,12 @@
+# Imported category group; edit custom.txt for local additions.
+# Region: non-RU services; includes countries outside Russia, including CIS.
+# Domain suffixes and IP geolocation are handled separately by routing policy.
+
+# Included service categories (including their local additions).
+include:ai-global
+include:dev-global
+include:ecosystems-global
+include:games-global
+include:messengers-global
+include:social-global
+include:streaming-global

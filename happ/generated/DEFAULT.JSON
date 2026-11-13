@@ -23,6 +23,7 @@
   "Geoipurl": "https://github.com/xAikq/routing/releases/latest/download/geoip.dat",
   "Geositeurl": "https://github.com/xAikq/routing/releases/latest/download/geosite.dat",
   "GlobalProxy": "true",
+  "LastUpdated": "1794577695",
   "Name": "DEFAULT",
   "ProxyIp": [],
   "ProxySites": [

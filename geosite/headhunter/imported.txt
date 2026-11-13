@@ -1,0 +1,14 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: headhunter (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:hh.by
+domain:hh.kz
+domain:hh.ru
+domain:hhcdn.ru
+domain:rabota.by
+domain:setka.ru
+domain:talantix.ru
+domain:zarplata.ru

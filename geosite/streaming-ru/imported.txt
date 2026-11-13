@@ -1,0 +1,7 @@
+# Imported category group; edit custom.txt for local additions.
+# Region: RU services; classification is independent of server/IP location.
+
+# Included service categories (including their local additions).
+include:okko
+include:rutube
+include:vkvideo

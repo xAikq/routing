@@ -1,0 +1,4 @@
+# Imported category group; edit custom.txt for local additions.
+
+# Included service categories (including their local additions).
+include:games-global

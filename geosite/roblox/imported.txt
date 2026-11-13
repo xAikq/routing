@@ -1,0 +1,57 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: roblox (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:blox.com
+domain:goblocks.com
+domain:goblox.com
+domain:gooblox.com
+domain:humancoexperience.com
+domain:rblx.co
+domain:rblx.com
+domain:rblx.org
+domain:rbx.com
+domain:rbxcdn.com
+domain:rbxinfra.net
+domain:rbxlabs.com
+domain:rbxtrk.com
+domain:ro-blox.com
+domain:roadblocks.com
+domain:roblocks.com
+domain:roblox-api.arkoselabs.com
+domain:roblox.ca
+domain:roblox.cc
+domain:roblox.cl
+domain:roblox.co.jp
+domain:roblox.co.uk
+domain:roblox.com
+domain:roblox.de
+domain:roblox.dk
+domain:roblox.eu
+domain:roblox.fr
+domain:roblox.hu
+domain:roblox.it
+domain:roblox.jp
+domain:roblox.kr
+domain:roblox.mx
+domain:roblox.net
+domain:roblox.org
+domain:roblox.ph
+domain:roblox.pt
+domain:roblox.sk
+domain:roblox.tv
+domain:roblox.uk
+domain:roblox.us
+domain:roblox.vn
+domain:robloxlabs.com
+domain:rowblocks.com
+domain:rowblox.com
+full:d1unuk07s6td74.cloudfront.net
+full:d348twzf7a8p5.cloudfront.net
+full:devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
+full:doy2mn9upadnk.cloudfront.net
+full:roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+full:roblox-poc.global.ssl.fastly.net
+full:robloxcorp.s.llnwi.net

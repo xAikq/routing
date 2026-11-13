@@ -1,0 +1,31 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: blizzard (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:battle.net
+domain:blizzard.com
+domain:blizzardgearstore.com
+domain:blz-contentstack.com
+domain:diablo.com
+domain:diablo3.com
+domain:diablo4.com
+domain:diabloimmortal.com
+domain:firesidegatherings.com
+domain:heroesofthestorm.com
+domain:playhearthstone.com
+domain:playoverwatch.com
+domain:playwarcraft3.com
+domain:starcraft.com
+domain:starcraft2.com
+domain:worldofwarcraft.com
+full:blizzard.nefficient.co.kr
+full:blizzcon-a.akamaihd.net
+full:blzddist1-a.akamaihd.net
+full:blzddistkr1-a.akamaihd.net
+full:blzmedia-a.akamaihd.net
+full:blznav.akamaized.net
+full:bnetcmsus-a.akamaihd.net
+full:bnetproduct-a.akamaihd.net
+full:bnetshopus.akamaized.net

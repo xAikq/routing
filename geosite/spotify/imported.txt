@@ -1,0 +1,31 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: spotify (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:byspotify.com
+domain:lifeatspotify.com
+domain:pscdn.co
+domain:scdn.co
+domain:spoti.fi
+domain:spotify-everywhere.com
+domain:spotify.com
+domain:spotify.com.edgesuite.net
+domain:spotify.design
+domain:spotify.link
+domain:spotifycdn.com
+domain:spotifycdn.net
+domain:spotifycharts.com
+domain:spotifycodes.com
+domain:spotifyforbrands.com
+domain:spotifyforvendors.com
+domain:spotifyjobs.com
+domain:tospotify.com
+full:audio-ak-spotify-com.akamaized.net
+full:audio4-ak-spotify-com.akamaized.net
+full:cdn-spotify-experiments.conductrics.com
+full:heads-ak-spotify-com.akamaized.net
+full:heads4-ak-spotify-com.akamaized.net
+full:spotify.map.fastly.net
+full:spotify.map.fastlylb.net

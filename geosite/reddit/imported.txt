@@ -1,0 +1,18 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: reddit (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:redd.it
+domain:reddit.app.link
+domain:reddit.com
+domain:reddit.map.fastly.net
+domain:redditblog.com
+domain:reddithelp.com
+domain:redditinc.com
+domain:redditmail.com
+domain:redditmedia.com
+domain:redditspace.com
+domain:redditstatic.com
+domain:redditstatus.com

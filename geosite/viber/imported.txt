@@ -1,0 +1,12 @@
+# Imported snapshot; edit custom.txt for local additions.
+# Source: https://github.com/v2fly/domain-list-community
+# Version: github.com/v2fly/domain-list-community@v0.0.0-20261112220438-777d056afe68
+# Upstream list: viber (includes and attribute filters resolved upstream)
+# License: MIT; Copyright (c) 2018-2019 V2Ray; see /LICENSE.
+
+domain:s-bid.rmp.rakuten.com
+domain:vbcdn.com
+domain:vbcdn.net
+domain:viber.co
+domain:viber.com
+domain:viber.me

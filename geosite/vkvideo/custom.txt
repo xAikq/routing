@@ -1,0 +1,13 @@
+# Ручные дополнения: один домен или правило на строку.
+# Импорт обновляет только imported.txt; этот файл сохраняется.
+# Правила из всех .txt файлов категории объединяются.
+
+# VK Видео и прямые трансляции: отдельные домены доставки видео.
+# Выбраны вручную из V2Fly data/vk; общие домены VK сюда не включены.
+# https://github.com/v2fly/domain-list-community/blob/777d056afe68b2643c1ef15f80e7bde3dfa149b1/data/vk
+# Copyright (c) 2018-2019 V2Ray. MIT; see /LICENSE.
+domain:vkuservideo.com
+domain:vkuservideo.net
+domain:vkuservideo.ru
+domain:vkuserlive.com
+domain:vkuserlive.net

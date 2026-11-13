@@ -1,0 +1,18 @@
+# Imported category group; edit custom.txt for local additions.
+# Region: non-RU services; includes countries outside Russia, including CIS.
+# Domain suffixes and IP geolocation are handled separately by routing policy.
+
+# Included service categories (including their local additions).
+include:activision
+include:blizzard
+include:ea
+include:epicgames
+include:faceit
+include:gog
+include:origin
+include:riot
+include:roblox
+include:rockstar
+include:steam
+include:ubisoft
+include:wargaming
