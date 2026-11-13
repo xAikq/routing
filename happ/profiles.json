@@ -1,6 +1,8 @@
 {
-  "custom_name": "Community Geo — свои правила",
-  "default_name": "Community Geo — готовые правила",
+  "custom_name": "JSONSUB",
+  "default_name": "DEFAULT",
+  "default_description": "Готовый профиль: Яндекс, VK, Ozon, Wildberries, банки и private IP — DIRECT; YouTube и остальной трафик — PROXY. Списки пока минимальные.",
+  "custom_description": "Минимальный профиль: только DNS и собственные GeoSite/GeoIP, без встроенных правил. Правила добавляются вручную; по умолчанию трафик через PROXY.",
   "rules": {
     "DIRECT": ["geosite:yandex", "geosite:vk", "geosite:ozon", "geosite:wildberries", "geosite:banks", "geoip:private"],
     "PROXY": ["geosite:youtube"],

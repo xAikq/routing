@@ -4,14 +4,31 @@
 
 Списки пока минимальные и не охватывают все домены сервисов. **`geoip:ru` содержит только два адреса публичного DNS Яндекса, а не все российские IP.**
 
-## Скачать
+<!-- HAPP-INSTALL:START -->
+
+## 📱 Установка для Happ
+
+<table>
+<thead><tr><th>Способ</th><th>Ссылка</th><th>Описание</th></tr></thead>
+<tbody>
+<tr><td>⚡ Быстрая установка</td><td><a href="https://xaikq.github.io/routing/install/">Открыть Happ</a></td><td>Переход на DEFAULT-диплинк; открыть на устройстве с Happ</td></tr>
+<tr><td colspan="3"><strong>DEFAULT</strong> — Готовый профиль: Яндекс, VK, Ozon, Wildberries, банки и private IP — DIRECT; YouTube и остальной трафик — PROXY. Списки пока минимальные.</td></tr>
+<tr><td>🔗 DEFAULT.DEEPLINK</td><td><a href="https://github.com/xAikq/routing/blob/main/happ/generated/DEFAULT.DEEPLINK">Просмотр</a></td><td>Диплинк-ссылка в текстовом формате</td></tr>
+<tr><td>📊 DEFAULT.JSON</td><td><a href="https://github.com/xAikq/routing/blob/main/happ/generated/DEFAULT.JSON">Просмотр</a></td><td>JSON-конфигурация маршрутизации</td></tr>
+<tr><td colspan="3"><strong>JSONSUB</strong> — Минимальный профиль: только DNS и собственные GeoSite/GeoIP, без встроенных правил. Правила добавляются вручную; по умолчанию трафик через PROXY.</td></tr>
+<tr><td>🔗 JSONSUB.DEEPLINK</td><td><a href="https://github.com/xAikq/routing/blob/main/happ/generated/JSONSUB.DEEPLINK">Просмотр</a></td><td>Диплинк-ссылка в текстовом формате</td></tr>
+<tr><td>📊 JSONSUB.JSON</td><td><a href="https://github.com/xAikq/routing/blob/main/happ/generated/JSONSUB.JSON">Просмотр</a></td><td>JSON-конфигурация маршрутизации</td></tr>
+</tbody>
+</table>
+
+Быстрая установка открывает и активирует DEFAULT. Если браузер блокирует переход, нажмите кнопку на странице. Для JSONSUB используйте страницу выбора профиля или скопируйте содержимое JSONSUB.DEEPLINK.
+
+<!-- HAPP-INSTALL:END -->
+
+## Скачать базы
 
 - [geosite.dat](https://github.com/xAikq/routing/releases/latest/download/geosite.dat)
 - [geoip.dat](https://github.com/xAikq/routing/releases/latest/download/geoip.dat)
-- [Готовый профиль Happ](https://github.com/xAikq/routing/releases/latest/download/happ-default.json)
-- [Профиль для своих правил](https://github.com/xAikq/routing/releases/latest/download/happ-custom.json)
-- [Ссылка импорта готового профиля](https://github.com/xAikq/routing/releases/latest/download/happ-default.txt)
-- [Ссылка импорта профиля для своих правил](https://github.com/xAikq/routing/releases/latest/download/happ-custom.txt)
 - [Страница с кнопками импорта](https://github.com/xAikq/routing/releases/latest/download/import.html)
 - [Контрольные суммы SHA-256](https://github.com/xAikq/routing/releases/latest/download/SHA256SUMS)
 - [Фактические категории и содержимое последней сборки](https://github.com/xAikq/routing/releases/latest/download/categories.json)
@@ -20,12 +37,12 @@
 
 ## Импорт в Happ
 
-Скачайте `import.html` и откройте на устройстве с Happ: кнопки содержат готовые ссылки импорта. После включения GitHub Pages страница также доступна по адресу [xaikq.github.io/routing](https://xaikq.github.io/routing/).
+Откройте [страницу установки](https://xaikq.github.io/routing/) на устройстве с Happ и выберите профиль. [Быстрая установка](https://xaikq.github.io/routing/install/) открывает и активирует DEFAULT. Если браузер блокирует автоматический переход, нажмите кнопку «Открыть Happ» на странице. Можно также скачать `import.html` из релиза и открыть локально.
 
-Альтернативный способ: скопируйте содержимое `happ-default.txt` или `happ-custom.txt` и импортируйте ссылку из буфера в Happ. Это `happ://routing/add/{base64}`, содержащий JSON профиля, а не URL JSON-файла.
+Альтернативный способ: скопируйте содержимое `DEFAULT.DEEPLINK` или `JSONSUB.DEEPLINK` и импортируйте ссылку из буфера в Happ. Это `happ://routing/add/{base64}`, содержащий JSON профиля, а не URL JSON-файла. Быстрая установка использует `onadd`, чтобы сразу включить DEFAULT.
 
-- **Готовый профиль:** правила берутся из [happ/profiles.json](happ/profiles.json).
-- **Свои правила:** URL наших баз уже заданы, все массивы правил пустые. Добавьте нужные категории вручную.
+- **DEFAULT:** готовые правила из [happ/profiles.json](happ/profiles.json).
+- **JSONSUB:** URL наших баз и DNS уже заданы, все массивы правил пустые. Добавьте нужные категории вручную. Это профиль маршрутизации; он не содержит VPN-подписку и не снимает ограничения импорта JSON-подписок Happ.
 
 Например:
 
@@ -87,6 +104,8 @@ IP-списки находятся в `geoip/<категория>/*.txt`, IPv4 �
 ## Правила готового профиля
 
 В [happ/profiles.json](happ/profiles.json) назначайте категории действиям `DIRECT`, `PROXY`, `BLOCK`. Имена двух профилей задаются там же. Категории должны существовать; одну категорию нельзя направить в разные действия. Учитывайте пересечения агрегаторов и отдельных списков. Полный анализ пересечений произвольных regexp/keyword не выполняется.
+
+Описания в таблице задаются полями `default_description` и `custom_description` в том же файле. Меняя правила, актуализируйте описание. Файлы в `happ/generated/`, страницы в `docs/` и таблица установки формируются при публикации; вручную их не редактируйте. Старые адреса `happ-default.json/.txt` и `happ-custom.json/.txt` в Releases сохранены как совместимые копии.
 
 Сами базы не содержат действий. Появление новой категории не добавляет её автоматически в готовую маршрутизацию.
 

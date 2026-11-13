@@ -1,0 +1,34 @@
+{
+  "BlockIp": [],
+  "BlockSites": [],
+  "DirectIp": [
+    "geoip:private"
+  ],
+  "DirectSites": [
+    "geosite:banks",
+    "geosite:ozon",
+    "geosite:vk",
+    "geosite:wildberries",
+    "geosite:yandex"
+  ],
+  "DnsHosts": {
+    "cloudflare-dns.com": "1.1.1.1",
+    "dns.google": "8.8.8.8"
+  },
+  "DomainStrategy": "AsIs",
+  "DomesticDNSDomain": "https://dns.google/dns-query",
+  "DomesticDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "FakeDNS": "false",
+  "Geoipurl": "https://github.com/xAikq/routing/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/xAikq/routing/releases/latest/download/geosite.dat",
+  "GlobalProxy": "true",
+  "Name": "DEFAULT",
+  "ProxyIp": [],
+  "ProxySites": [
+    "geosite:youtube"
+  ],
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "RemoteDNSType": "DoH"
+}
