@@ -26,15 +26,16 @@
 
 | Профиль | Что делает | Посмотреть |
 | --- | --- | --- |
-| **DEFAULT** | `ads` и `tracking` → BLOCK; `ru` и `geoip:private` → DIRECT; остальное → PROXY | [JSON](happ/generated/DEFAULT.JSON) · [диплинк](happ/generated/DEFAULT.DEEPLINK) |
+| **DEFAULT** | `ads` и `tracking` → BLOCK; `geosite:ru`, `geoip:ru` и `geoip:private` → DIRECT; остальное → PROXY | [JSON](happ/generated/DEFAULT.JSON) · [диплинк](happ/generated/DEFAULT.DEEPLINK) |
 | **JSONSUB** | Подключает базы и DNS; списки DIRECT/PROXY/BLOCK пустые, по умолчанию действует PROXY | [JSON](happ/generated/JSONSUB.JSON) · [диплинк](happ/generated/JSONSUB.DEEPLINK) |
+| **RU-BRIDGE** | Весь интернет-трафик через существующее VPN-подключение к RU; выход RU/SE выбирает RU-нода | [JSON](happ/generated/RU-BRIDGE.JSON) · [диплинк](happ/generated/RU-BRIDGE.DEEPLINK) |
 
 Диплинк — ссылка `happ://routing/add/…` с настройками профиля внутри. JSON показывает те же настройки в читаемом виде. Файлы выше находятся в Git; установка открывается кнопкой. Нужен Happ с настроенным VPN-подключением. После импорта дождитесь загрузки баз и переподключитесь.
 
 **Базы отдельно от профиля:** [geosite.dat](https://github.com/xAikq/routing/releases/latest/download/geosite.dat) · [geoip.dat](https://github.com/xAikq/routing/releases/latest/download/geoip.dat) · [categories.json](https://github.com/xAikq/routing/releases/latest/download/categories.json) · [SHA256SUMS](https://github.com/xAikq/routing/releases/latest/download/SHA256SUMS). Они пригодятся, если профиль вы пишете сами. `categories.json` показывает уже раскрытые `include:` и фактические правила **опубликованного** релиза.
 
 > [!IMPORTANT]
-> Содержимое `main` и последнего релиза может различаться. Ссылки `/releases/latest/download/` ведут к последним **опубликованным** базам. Новые правила из Git начнут работать по этим адресам после следующего релиза. `geoip:ru` сейчас содержит только два IP DNS Яндекса, а не все российские сети.
+> Содержимое `main` и последнего релиза может различаться. Ссылки `/releases/latest/download/` ведут к последним **опубликованным** базам. Новые правила из Git начнут работать по этим адресам после следующего релиза. Полная выгрузка IPv4/IPv6 РФ добавлена из DB-IP Lite за ноябрь 2026; релиз 26.11.14.1 ещё содержит демонстрационную GeoIP-базу.
 
 <a id="карта-категорий"></a>
 
@@ -97,7 +98,7 @@ geoip:private · geoip:ru           IP-категории
 | [geosite:ads](geosite/ads/) | Рекламные домены |
 | [geosite:tracking](geosite/tracking/) | Аналитика и телеметрия |
 | [geoip:private](geoip/private/) | Локальные и частные IPv4/IPv6 сети |
-| [geoip:ru](geoip/ru/) | Пока только `77.88.8.8/32` и `77.88.8.1/32`; **не используйте как базу всех IP РФ** |
+| [geoip:ru](geoip/ru/) | Российские IPv4/IPv6 из [DB-IP Lite](https://db-ip.com/db/lite.php); ручные дополнения в `custom.txt`, условия в [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) |
 
 </details>
 

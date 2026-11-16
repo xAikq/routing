@@ -1,11 +1,11 @@
 {
   "custom_name": "JSONSUB",
   "default_name": "DEFAULT",
-  "default_policy": "ru-domains",
-  "default_description": "Российские домены и сервисы из geosite:ru, а также локальные IP — DIRECT. Реклама и аналитика — BLOCK. Остальной трафик — PROXY по умолчанию. Полная российская GeoIP-база пока не подключена.",
+  "default_policy": "ru-direct",
+  "default_description": "Российские домены и сервисы из geosite:ru, российские и локальные IP — DIRECT. Реклама и аналитика — BLOCK. Остальной трафик — PROXY по умолчанию. Российские IPv4/IPv6 определяются по DB-IP Lite.",
   "custom_description": "Минимальный профиль: только DNS и собственные GeoSite/GeoIP, без встроенных правил. Правила добавляются вручную; по умолчанию трафик через PROXY.",
   "rules": {
-    "DIRECT": ["geosite:ru", "geoip:private"],
+    "DIRECT": ["geosite:ru", "geoip:ru", "geoip:private"],
     "PROXY": [],
     "BLOCK": ["geosite:ads", "geosite:tracking"]
   }

@@ -1,0 +1,13 @@
+{
+  "BlockIp": [],
+  "BlockSites": [],
+  "DirectIp": [],
+  "DirectSites": [],
+  "DomainStrategy": "AsIs",
+  "FakeDNS": "false",
+  "GlobalProxy": "true",
+  "Name": "RU-BRIDGE",
+  "ProxyIp": [],
+  "ProxySites": [],
+  "RouteOrder": "block-direct-proxy"
+}

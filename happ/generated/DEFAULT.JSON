@@ -5,7 +5,8 @@
     "geosite:tracking"
   ],
   "DirectIp": [
-    "geoip:private"
+    "geoip:private",
+    "geoip:ru"
   ],
   "DirectSites": [
     "geosite:ru"
@@ -22,7 +23,7 @@
   "Geoipurl": "https://github.com/xAikq/routing/releases/latest/download/geoip.dat",
   "Geositeurl": "https://github.com/xAikq/routing/releases/latest/download/geosite.dat",
   "GlobalProxy": "true",
-  "LastUpdated": "1794610029",
+  "LastUpdated": "1794864734",
   "Name": "DEFAULT",
   "ProxyIp": [],
   "ProxySites": [],
